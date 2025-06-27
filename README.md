@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>J'adore Nails & Massages</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background-color: #f4fefe;
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1619586613736-9bbdf156f3b9?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
     }
     header {
-      background-color: #d0f0f0;
+      background: rgba(255, 255, 255, 0.85);
       padding: 40px 20px;
       text-align: center;
     }
@@ -20,7 +23,7 @@
       color: #004d4d;
     }
     nav {
-      background-color: #008080;
+      background-color: rgba(0, 128, 128, 0.9);
       padding: 10px;
       text-align: center;
     }
@@ -30,16 +33,25 @@
       text-decoration: none;
       font-weight: bold;
     }
+    nav a:hover {
+      text-decoration: underline;
+      color: #ccffcc;
+    }
     section {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
     }
     .cta {
       background-color: #e6fff9;
       border: 1px solid #b2dfdb;
       padding: 20px;
       margin: 20px 0;
+      border-radius: 8px;
     }
     footer {
       background-color: #004d4d;
@@ -55,11 +67,15 @@
       color: #006666;
       font-weight: bold;
     }
+    .insta a:hover {
+      color: #009999;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>J'adore Nails & Massages</h1>
+    <h1>J'adore Nails & Massages <span style="color:#ff66b2;">❤</span></h1>
     <p>Pour des ongles impeccables et des instants de pure détente</p>
     <p>📍 Av de l’église Saint-Julien 2 – 📞 (32) 470 94 87 07</p>
   </header>
@@ -84,13 +100,13 @@
 
   <section id="horaires">
     <h2>Horaires d'ouverture</h2>
-    <ul>      
+    <ul>
       <li>Lundi - Samedi : 10h - 18h</li>
       <li>Dimanche : fermé</li>
     </ul>
     <div class="cta">
-      <strong>Jours fériés :</strong> Nous sommes exceptionnellement fermés certains jours fériés. <br />
-      <em>Vous pouvez ajouter les dates ici manuellement :</em><br />
+      <strong>Jours fériés :</strong> Nous sommes exceptionnellement fermés certains jours fériés. <br>
+      <em>Vous pouvez ajouter les dates ici manuellement :</em><br>
       <ul>
         <li>15 août – Assomption</li>
         <!-- Ajoutez ou modifiez ici -->
@@ -124,3 +140,4 @@
   </footer>
 </body>
 </html>
+
